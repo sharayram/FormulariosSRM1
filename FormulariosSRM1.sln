@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulariosSRM1", "FormulariosSRM1\FormulariosSRM1.csproj", "{E61EE68E-EC72-42C7-99DB-D18626BFB218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E61EE68E-EC72-42C7-99DB-D18626BFB218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61EE68E-EC72-42C7-99DB-D18626BFB218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61EE68E-EC72-42C7-99DB-D18626BFB218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61EE68E-EC72-42C7-99DB-D18626BFB218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1B47DF1-C0FF-4CA1-BFBC-84CB79B2AFFA}
+	EndGlobalSection
+EndGlobal
