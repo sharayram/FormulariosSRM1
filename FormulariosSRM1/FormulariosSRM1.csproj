@@ -96,7 +96,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="Ejemplo\ejemplo1.aspx" />
+    <Content Include="Ejemplo\EstiloDeVida.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -113,12 +113,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Ejemplo\ejemplo1.aspx.cs">
-      <DependentUpon>ejemplo1.aspx</DependentUpon>
+    <Compile Include="Ejemplo\EstiloDeVida.aspx.cs">
+      <DependentUpon>EstiloDeVida.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ejemplo\ejemplo1.aspx.designer.cs">
-      <DependentUpon>ejemplo1.aspx</DependentUpon>
+    <Compile Include="Ejemplo\EstiloDeVida.aspx.designer.cs">
+      <DependentUpon>EstiloDeVida.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace FormulariosSRM1.Ejemplo
 {
-    public partial class ejemplo1 : System.Web.UI.Page
+    public partial class EstiloDeVida : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -11,7 +11,7 @@ namespace FormulariosSRM1.Ejemplo
 {
 
 
-    public partial class ejemplo1
+    public partial class EstiloDeVida
     {
 
         /// <summary>
@@ -22,14 +22,5 @@ namespace FormulariosSRM1.Ejemplo
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Control ClickSiguiente.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ClickSiguiente;
     }
 }
