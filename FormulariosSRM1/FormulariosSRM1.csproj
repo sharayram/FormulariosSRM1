@@ -97,7 +97,9 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Ejemplo\EstiloDeVida.aspx" />
+    <Content Include="Ejemplo\Prioridades.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Resorces\IMG\Lgo ASFIES.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -119,6 +121,13 @@
     </Compile>
     <Compile Include="Ejemplo\EstiloDeVida.aspx.designer.cs">
       <DependentUpon>EstiloDeVida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo\Prioridades.aspx.cs">
+      <DependentUpon>Prioridades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo\Prioridades.aspx.designer.cs">
+      <DependentUpon>Prioridades.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
