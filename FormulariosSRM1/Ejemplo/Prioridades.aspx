@@ -19,15 +19,15 @@
             <h5 class="m-auto text-light text-center">¿Cuál de las siguientes opciones priorizarías?</h5>
         </div>
 
-    
-            <div class="container-xxl mt-5">
+    <center>
+            <div class="container mt-5">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <div>
                         <a href="https://github.com/Ederjoel26">
-                            <input type="image" src="../Imagenes/familia.png" name="submit" width="250" height="250" alt="submit" /></a>
+                            <input type="image" src="../Imagenes/familia.png" name="submit" width="250" height="250" alt="submit"/></a>
                         <p><strong><em>
-                            <h1 class="text-info">FAMILIA</h1>
+                            <h1 class="text-info text-center">FAMILIA</h1>
                         </em></strong></p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                             <input type="image" src="../Imagenes/ahorro.png" name="submit" width="250" height="250" alt="submit" /></a>
                         <!-- <a href="ctrl + space "> -->
                         <p><strong><em>
-                            <h1 class="text-info">AHORRO</h1>
+                            <h1 class="text-info text-center">AHORRO</h1>
                         </em></strong></p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <a href="https://github.com/Ederjoel26">
                             <input type="image" src="../Imagenes/educacion.png" name="submit" width="250" height="250" alt="submit" /></a>
                         <p><strong><em>
-                            <h1 class="text-info">EDUCACIÓN</h1>
+                            <h1 class="text-info text-center">EDUCACIÓN</h1>
                         </em></strong></p>
                     </div>
                 </div>
@@ -58,12 +58,13 @@
                         <a href="https://github.com/Ederjoel26">
                             <input type="image" src="../Imagenes/retiro.png" name="submit" width="250" height="250" alt="submit" /></a>
                         <p><strong><em>
-                            <h1 class="text-info">RETIRO</h1>
+                            <h1 class="text-info text-center ">RETIRO</h1>
                         </em></strong></p>
                     </div>
                 </div>
             </div>
         </div>
+        </center>
             <div class="mt-5 d-grid gap-2 d-md-flex justify-content-md-end">
             <p><strong><h5 class="text-black">“Te guste o no, el mundo evoluciona, las prioridades cambian y tú también”</h5></strong></p>
         </div>
