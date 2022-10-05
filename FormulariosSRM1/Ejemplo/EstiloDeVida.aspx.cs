@@ -11,7 +11,7 @@ namespace FormulariosSRM1.Ejemplo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -27,6 +27,11 @@ namespace FormulariosSRM1.Ejemplo
         protected void Button1_Click2(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Button1_Click3(object sender, EventArgs e)
+        {
+            
         }
     }
 }

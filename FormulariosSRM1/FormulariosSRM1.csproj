@@ -96,10 +96,20 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Ejemplo\Educación.aspx" />
+    <Content Include="Ejemplo\Inicio.aspx" />
+    <Content Include="Ejemplo\Login.aspx" />
+    <Content Include="Ejemplo\PDFEstiloDeVida.aspx" />
+    <Content Include="Imagenes\ahorro.png" />
+    <Content Include="Imagenes\educacion.png" />
     <Content Include="Ejemplo\EstiloDeVida.aspx" />
+    <Content Include="Imagenes\familia.png" />
+    <Content Include="Imagenes\imagenBD.png" />
+    <Content Include="Imagenes\imagenLogo.png" />
+    <Content Include="Imagenes\Lgo ASFIES.png" />
     <Content Include="Ejemplo\Prioridades.aspx" />
+    <Content Include="Imagenes\retiro.png" />
     <Content Include="Global.asax" />
-    <Content Include="Resorces\IMG\Lgo ASFIES.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -115,12 +125,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Ejemplo\Educación.aspx.cs">
+      <DependentUpon>Educación.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo\Educación.aspx.designer.cs">
+      <DependentUpon>Educación.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ejemplo\EstiloDeVida.aspx.cs">
       <DependentUpon>EstiloDeVida.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ejemplo\EstiloDeVida.aspx.designer.cs">
       <DependentUpon>EstiloDeVida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo\Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo\Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo\PDFEstiloDeVida.aspx.cs">
+      <DependentUpon>PDFEstiloDeVida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo\PDFEstiloDeVida.aspx.designer.cs">
+      <DependentUpon>PDFEstiloDeVida.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ejemplo\Prioridades.aspx.cs">
       <DependentUpon>Prioridades.aspx</DependentUpon>
@@ -171,6 +209,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Resorces\IMG\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

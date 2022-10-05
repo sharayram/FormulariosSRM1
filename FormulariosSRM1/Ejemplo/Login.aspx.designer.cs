@@ -11,7 +11,7 @@ namespace FormulariosSRM1.Ejemplo
 {
 
 
-    public partial class Prioridades
+    public partial class Login
     {
     }
 }

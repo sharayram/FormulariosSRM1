@@ -11,25 +11,25 @@ namespace FormulariosSRM1.Ejemplo
 {
 
 
-    public partial class EstiloDeVida
+    public partial class Educación
     {
 
         /// <summary>
-        /// Control Label1.
+        /// Control Table1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Table Table1;
 
         /// <summary>
-        /// Control Label2.
+        /// Control Table2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Table Table2;
     }
 }

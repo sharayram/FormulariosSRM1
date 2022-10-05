@@ -6,221 +6,106 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Estilo de Vida</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"></head>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+</head>
 <body>
-    <style>
-        #Texto {
-            margin-top: 30px;
-        }
-        #cuadro{
-            background-color: #8EA9DB;
-            margin-top: 30px;
-            
-        }
-        .form-control {
-            margin-top:30px;
-        }
-
-        .form-select {
-            margin-top:30px;
-        }
-
-        #OpcionesEstadoCivil{
-            width:300px;
-        }
-
-        #OpcionesV{
-            width:245px;
-        }
-        
-
-    </style>
-    
-     <div>
-        <header style="background-color: rgba(56, 191, 236, 1);">
-            <img src="../img/Lgo ASFIES.png" alt="" width="42" height="34">
-            <label class="text-light" >Asesor Financiero Es+</label > 
-        </header>
-    </div>
-   
-    <div class="container" id="Texto">
-        <div class="p-2" style="background-color:rgba(0, 32, 96, 1) ;" >
-            <h5 class="text-light text-center">Antes de continuar unas breves preguntas</h5>
-        </div>
-
-        <div class="container-xxl">
-            <div class="row">
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!--class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Nombre</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Apellido Materno" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!--class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Apellido Paterno</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Apellido Materno" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!--class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Apellido Materno</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Apellido Materno" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-            </div>
-
+    <header style="background-color: rgba(56, 191, 236, 1);">
+        <img src="../Imagenes/Lgo%20ASFIES.png" alt="" width="42" height="34" />
+        <label class="text-light">Asesor Financiero Es+</label>
+    </header>
+    <div class="container mt-4">
+        <div class="p-2" style="background-color: rgba(0, 32, 96, 1);">
+            <h5 class="m-auto text-light text-center">¿Cuál de las siguientes opciones priorizarías?</h5>
         </div>
     </div>
-
-        <div class="container-xxl">
-            <div class="row">
-
-            <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Fecha de nacimiento</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Fecha de nacimiento" aria-label="Fecha de nacimiento" aria-describedby="basic-addon1">
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Edad</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Edad" aria-label="Edad" aria-describedby="basic-addon1">
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Correo electrónico</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Correo electrónico" aria-label="Correo electrónico" aria-describedby="basic-addon1">
-                </div>
-            </div>
-
-        </div>
-    </div>
-    
-    
-        <div class="container-xxl">
-            <div class="row">
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Número telefónico</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Número telefónico" aria-label="Número telefónico" aria-describedby="basic-addon1">
-                </div>
-            </div>
-            
-            <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Ocupación</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Ocupación" aria-label="Ocupación" aria-describedby="basic-addon1">
-                </div>
-            </div>
-
+    <div class="container">
+        <div class="row">
             <div class="col">
                 <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">Estado Civil</span>
-                    </div>
-                    <div class="col-md-3">
-                        <select class="form-select" id="OpcionesV" required>
-                            <option selected disabled value="">Seleccionar</option>
-                            <option>Soltero/Soltera</option>
-                            <option>Casado/Casada</option>
-                            <option>Unión libre</option>
-                            <option>Concubinato</option>
-                            <option>Viudo/Viuda</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please select a valid state.
-                        </div>
-                    </div>
+                    <span class="input-group-text bg-purple mt-3">Valor económico de la vida: </span>
+                    <input type="text" class="form-control mt-3" placeholder="(Mostrar Valor económico)" aria-label="Username" aria-describedby="basic-addon1" />
                 </div>
             </div>
-
+            <div class="col">
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-purple mt-3">Ingreso mensual: </span>
+                    <input type="text" class="form-control mt-3" placeholder="(Mostrar ingreso)" aria-label="Username" aria-describedby="basic-addon1" />
+                </div>
+            </div>
         </div>
-    </div>
-
-
-        <div class="container-xxl">
-            <div class="row">
-
-            <div class="col-4">
-                <div class="input-group mb-3">
+        <div class="row">
+            <div class="col">
+                <div class="input-group mb-6">
                     <div class="input-group-prepend">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">¿Usted es fumador?</span>
+                        <span class="input-group-text bg-purple mt-3">Multiplo de Salario Anual</span>
                     </div>
-                    <div class="col-md-3">
-                        <select class="form-select" id="OpcionesV" width="245px">
+                    <div class="col-sm-6  col-md-8 col-lg-10">
+                        <select class="form-select mt-3">
                             <option selected disabled value="">Seleccionar</option>
-                            <option>Sí</option>
-                            <option>No</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>5</option>
+                            <option>8</option>
                         </select>
-                        <div class="invalid-feedback">
-                            Please select a valid state.
+                        <div class="Opción invalida"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <div class="input-group md-3">
+                    <div class="col-12">
+                        <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center" style="background-color: rgba(142, 169, 219, 1); border-top-left-radius: 12px; border-top-right-radius: 12px; height: auto;">
+                            Suma asegurada en UDIS:
+                        </div>
+                        <div class="mb-5 p-3 grid align-items-center d-flex justify-content-center" style="height: auto; background-color: rgba(56, 191, 236, 0.2); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px">
+                            <asp:Label ID="Label1" runat="server" Text="Mostrar UDIS"></asp:Label>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="input-group md-3">
+                    <div class="col-12">
+                        <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center" style="background-color: rgba(142, 169, 219, 1); border-top-left-radius: 12px; border-top-right-radius: 12px; height: auto;">
+                            Suma asegurada en UDIS:
+                        </div>
+                        <div class="mb-5 p-3 grid align-items-center d-flex justify-content-center" style="height: auto; background-color: rgba(56, 191, 236, 0.2); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px">
+                            <asp:Label ID="Label2" runat="server" Text="Mostrar UDIS"></asp:Label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <label>Mostrar texto</label>
+        </div>
 
-            <div class="col-4">
-                <div class="input-group mb-3">
-                        <!---->
-                        <span class="input-group-text" id="cuadro">¿Dependientes económicos?</span>
-                        <select name="DependientesEconómicos" id="Dependientes" >
+        <div class="row">
+            <div class="col">
+                <div class="input-group mb-5">
+                    <div class="mt-5 input-group-prepend">
+                        <span class="input-group-text bg-purple mt-3">¿Qué tipo de seguro le gustaría?</span>
+                    </div>
+                    <div class="mt-5 col-sm-6  col-md-8 col-lg-7">
+                        <select class="form-select mt-3">
                             <option selected disabled value="">Seleccionar</option>
-                            <option value="1">Sí</option>
-                            <option value="2">No</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>5</option>
+                            <option>8</option>
                         </select>
-                    </div>                   
+                        <div class="Opción invalida"></div>
+                    </div>
                 </div>
+            </div>
+            <div class="mb-5 col-6"></div>
+            <label>Mostrar texto</label>
+        </div>
 
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button type="button" class="btn btn-outline-primary">Enviar</button>
-                </div>
-
+        <div class="mb-5 mt-5 d-grid gap-2 d-md-flex justify-content-sm-end">
+            <button class="btn btn-info" type="submit" action="">Agendar cita</button>
         </div>
     </div>
 </body>
 </html>
-<!--container centra el DIV
-    tamaños xsm- sm- md- lg- xl -xxl 
-    container-fluid ocupa toda la pantalla en todo tipo de tamaño
-    
-    la clase "row" en las filas de la pagina 
-    
-    la clase "col" acompañada de un - y un numero no mayor a 12, ocupa las columnas de una pagina 
-    la clase "col-tamaño-numero" refleja las diferentes columnas que utilizara un div dependiendo el tamaño de la pantalla 
-    -->
