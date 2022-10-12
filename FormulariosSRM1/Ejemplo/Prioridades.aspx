@@ -25,52 +25,42 @@
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <div>
                         <a href="https://github.com/Ederjoel26">
-                            <input type="image" src="../Imagenes/familia.png" name="submit" width="250" height="250" alt="submit"/></a>
-                        <p><strong><em>
-                            <h1 class="text-info text-center">FAMILIA</h1>
-                        </em></strong></p>
+                            <input class="mb-3" type="image" src="../Imagenes/familia.png" name="submit" width="250" height="250" alt="submit"/></a>
+                        <asp:Label class="text-info text-center display-6 fw-bold" runat="server" Text="FAMILIA"></asp:Label>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <div>
                         <a href="https://github.com/Ederjoel26">
-                            <input type="image" src="../Imagenes/ahorro.png" name="submit" width="250" height="250" alt="submit" /></a>
-                        <!-- <a href="ctrl + space "> -->
-                        <p><strong><em>
-                            <h1 class="text-info text-center">AHORRO</h1>
-                        </em></strong></p>
+                            <input class="mb-3" type="image" src="../Imagenes/ahorro.png" name="submit" width="250" height="250" alt="submit" /></a>
+                        <asp:Label class="text-info text-center display-6 fw-bold" runat="server" Text="AHORRO"></asp:Label>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <div>
                         <a href="https://github.com/Ederjoel26">
-                            <input type="image" src="../Imagenes/educacion.png" name="submit" width="250" height="250" alt="submit" /></a>
-                        <p><strong><em>
-                            <h1 class="text-info text-center">EDUCACIÓN</h1>
-                        </em></strong></p>
+                            <input class="mb-3" type="image" src="../Imagenes/educacion.png" name="submit" width="250" height="250" alt="submit" /></a>
+                        <asp:Label class="text-info text-center display-6 fw-bold" runat="server" Text="EDUCACIÓN"></asp:Label>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <div>
                         <a href="https://github.com/Ederjoel26">
-                            <input type="image" src="../Imagenes/retiro.png" name="submit" width="250" height="250" alt="submit" /></a>
-                        <p><strong><em>
-                            <h1 class="text-info text-center ">RETIRO</h1>
-                        </em></strong></p>
+                            <input  class="mb-3" type="image" src="../Imagenes/retiro.png" name="submit" width="250" height="250" alt="submit" /></a>
+                        <asp:Label class="text-info text-center display-6 fw-bold" runat="server" Text="RETIRO"></asp:Label>
                     </div>
                 </div>
             </div>
         </div>
         </center>
             <div class="mt-5 d-grid gap-2 d-md-flex justify-content-md-end">
-            <p><strong><h5 class="text-black">“Te guste o no, el mundo evoluciona, las prioridades cambian y tú también”</h5></strong></p>
+                <asp:Label class="text-black text-center h5 fw-bold" runat="server" Text="Te guste o no, el mundo evoluciona, las prioridades cambian y tú también"></asp:Label>
         </div>
-        <div class="d-grid gap-2 d-md-flex justify-content-sm-end">
-            <br />
-            <p><strong><h5 class="text-primary">John C. Maxwell</h5></strong></p>
+        <div class="d-grid gap-2 d-md-flex justify-content-sm-end mt-5">
+            <asp:Label class="text-info text-center h5 fw-bold" runat="server" Text="Jhon C. Maxwell"></asp:Label>
         </div>
        
     </div>     

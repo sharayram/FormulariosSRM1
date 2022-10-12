@@ -47,7 +47,7 @@
                 <img class="position-absolute top-50 start-50 translate-middle" src="../Imagenes/imagenLogo.png" />
             </div>
         </div>
-
+        
         <div class="mt-4 p-2" style="background-color: rgba(0, 32, 96, 1);">
             <h5 class="m-auto text-light">Fecha de realización</h5>
         </div>

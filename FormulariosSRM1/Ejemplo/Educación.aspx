@@ -22,7 +22,7 @@
         </div>
         <div class="row mt-3">
             <div class="mt-2 col-sm-12 col-lg-4">
-                <div class="text-center text-light bg-blue mb-2">Nombre de tus hij@s</div>
+                <div class="text-center text-light bg-blue mb-2">Nombre de tus hijos</div>
                 <input class="form-control rounded-pill mt-2" placeholder="Mostrar nombre" />
             </div>
             <div class="mt-2 col-sm-12 col-lg-4">
@@ -85,9 +85,8 @@
             <h5 class="m-0 text-center">Con ese presupuesto puedes acceder a:
             </h5>
         </div>
-        <div class=" mt-3 m-auto text-center grid text-black align-items-center d-flex justify-content-center bg-purple" style="border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;">
-            <h5>Universidades
-            </h5>
+        <div class=" mt-3 m-auto text-center grid text-black align-items-center d-flex justify-content-center bg-purple rounded">
+            <asp:Label class="fw-bold" ID="lblUniversidades" runat="server" Text="universidades"></asp:Label>
         </div>
         <div class="bg-light-blue p-2 mt-3">
             <h5 class="m-0 text-center">Tendrías que ahorrar para este nivel un total de:
@@ -97,7 +96,7 @@
         <div class="row mt-3">
             <div class="col">
                 <div class="bg-purple p-2">
-                    <h5 class="m-0">Para tus hij@s
+                    <h5 class="m-0">Para tus hijos
                     </h5>
                 </div>
                 <div>
@@ -119,7 +118,7 @@
                     </h5>
                 </div>
                 <div class=" mt-3 m-auto text-center grid text-black align-items-center d-flex justify-content-center bg-purple" style="border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;">
-                    Mostrar monto           
+                    <asp:Label ID="lblAhorroTotal" runat="server" Text="Mostrar ahorro total"></asp:Label>  
                 </div>
             </div>
         </div>

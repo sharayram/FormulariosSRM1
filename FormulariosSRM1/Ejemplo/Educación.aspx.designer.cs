@@ -24,6 +24,15 @@ namespace FormulariosSRM1.Ejemplo
         protected global::System.Web.UI.WebControls.Table TablaAñosDeAhorro;
 
         /// <summary>
+        /// Control lblUniversidades.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblUniversidades;
+
+        /// <summary>
         /// Control TablaHijos.
         /// </summary>
         /// <remarks>
@@ -31,5 +40,14 @@ namespace FormulariosSRM1.Ejemplo
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Table TablaHijos;
+
+        /// <summary>
+        /// Control lblAhorroTotal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAhorroTotal;
     }
 }
