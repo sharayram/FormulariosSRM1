@@ -29,17 +29,17 @@
                 <h3>Análisis Financiero para:</h3>
 
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control mt-3" placeholder="Mostrar nombre" aria-label="Username" aria-describedby="basic-addon1" />
+                    <asp:Label class="form-control mt-3" ID="txtNombrePDFEstiloDeVida" runat="server" Text="Mostrar nombre"></asp:Label>
                 </div>
 
                 <div class="input-group mb-3">
                     <span class="input-group-text bg-purple mt-3">Tu prioridad es:</span>
-                    <input type="text" class="form-control mt-3" placeholder="(Mostrar prioridad)" aria-label="Username" aria-describedby="basic-addon1" />
+                    <asp:Label class="form-control mt-3" ID="txtPrioridadPDFEstiloDeVida" runat="server" Text="Mostrar prioridad"></asp:Label>
                 </div>
 
                 <div class="input-group mb-3">
                     <span class="input-group-text bg-purple mt-3">La próxima cita es:</span>
-                    <input type="text" class="form-control mt-3" placeholder="(Mostrar fecha)" aria-label="Username" aria-describedby="basic-addon1" />
+                    <asp:Label class="form-control mt-3" ID="txtFechaCitaPDFEstiloDeVida" runat="server" Text="Mostrar Fecha"></asp:Label>
                 </div>
             </div>
 
@@ -59,15 +59,15 @@
                     <tbody>
                         <tr>
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Valor económico en tu vida</th>
-                            <td class="text-center">Se muestra valor</td>
+                            <td class="text-center"><asp:Label ID="lblPDFEDVValorEconomico" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                         <tr>
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Años de salario de protección</th>
-                            <td class="text-center">Se muestra valor</td>
+                            <td class="text-center"><asp:Label ID="lblPDFEDVSalariodeProteccion" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                         <tr>
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Suma asegurada en pesos</th>
-                            <td class="text-center">Se muestra valor</td>
+                            <td class="text-center"><asp:Label ID="lblPDFEDVSumaEnPesos" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                     </tbody>
                 </table>
@@ -75,7 +75,7 @@
 
             <div class="col">
                 <div class=" mt-4 p-3 text-center grid text-black align-items-center d-flex justify-content-center rounded bg-purple">
-                    La proteccion se considera buena y suficionte para proteger a tu familia del impacto inicial durante un peridodo de tiempo medio, pero intermedia para protger de alguna incapacidad 
+                    <asp:Label ID="txtPDFEstilodDeVida1" runat="server" Text="Mostrar Texto"></asp:Label>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
 
             <div class="col">
                 <div class=" mt-4 p-3 text-center grid text-black align-items-center d-flex justify-content-center rounded bg-purple">
-                    La proteccion se considera buena y suficionte para proteger a tu familia del impacto inicial durante un peridodo de tiempo medio, pero intermedia para protger de alguna incapacidad 
+                    <asp:Label ID="txtPDFEstiloDeVida2" runat="server" Text="Mostrar Texto"></asp:Label>
                 </div>
             </div>
 
@@ -92,10 +92,10 @@
                 <table class=" table table-bordered border">
                     <tbody>
                         <tr>
-                            <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Valor económico en tu vida</th>
+                            <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Suma Asegurada en UDIS:</th>
                         </tr>
                         <tr>
-                            <td class="text-center">Se muestra valor</td>
+                            <td class="text-center"><asp:Label ID="lblPDFEDVValorEc" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                     </tbody>
                 </table>
@@ -103,10 +103,10 @@
                 <table class=" table table-bordered border mb-5">
                     <tbody>
                         <tr>
-                            <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Valor económico en tu vida</th>
+                            <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Tipo de Seguro Elegido:</th>
                         </tr>
                         <tr>
-                            <td class="text-center">Se muestra valor</td>
+                            <td class="text-center"><asp:Label ID="lblPDFEDV" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                     </tbody>
                 </table>
@@ -124,11 +124,12 @@
         <div class="row">
             <div class="col-1"></div>
             <div class="col mt-4">
-                <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center" style="background-color: rgba(142, 169, 219, 1); border-top-left-radius: 12px; border-top-right-radius: 12px; height: auto;" id="cuadros">
-                    <strong>Seguros vitalicios</strong>
+                <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center rounded-top bg-purple fw-bold">
+                    <asp:Label runat="server" Text="Seguros Vitalicios"></asp:Label>
                 </div>
-                <div class="p-3 grid align-items-center d-flex justify-content-center" style="height: auto; background-color: rgba(56, 191, 236, 0.2); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px">
-                    Te ofrecce una proteccion, para ti y tu familia, en diferentes situaciones.El recurso econimico estára disponibles para tu familia en caso de invalidez parcial o total y en caso de fallecimiento. La proteccion que brinda inicia desde la contratación, hasta los 101 años de edad, se paga por un periodo de tiempo establecido y dura todo el plazo de contratacion.
+                <div class="p-3 grid align-items-center d-flex justify-content-center rounded-bottom">
+                    <asp:Label runat="server" Text="Seguro Vitalicio">
+                         Te ofrecce una proteccion, para ti y tu familia, en diferentes situaciones.El recurso econimico estára disponibles para tu familia en caso de invalidez parcial o total y en caso de fallecimiento. La proteccion que brinda inicia desde la contratación, hasta los 101 años de edad, se paga por un periodo de tiempo establecido y dura todo el plazo de contratacion.
                 <br />
                     Recomendaciones:
                 <br />
@@ -141,6 +142,7 @@
                     4. El pago de tu póloza estará cubiierto en caso de invalidez para seguir protegido y garantizar el pago por el fallecimiento a tu famila.
                 <br />
                     5. Se puede contar con una cubertura adicional que ofrece liquidez en caso de padecer alguna enfermedad grave(Cáncer, infarto, Derrame cerebral, etc), ser hospitalizado o invertido quirúgicamente. 
+                    </asp:Label>
                 </div>
             </div>
             <div class="col-1"></div>
@@ -149,10 +151,11 @@
         <div class="row">
             <div class="col-1"></div>
             <div class="col mt-4">
-                <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center" style="background-color: rgba(142, 169, 219, 1); border-top-left-radius: 12px; border-top-right-radius: 12px; height: auto;">
-                    <strong>Seguros Dotales</strong>
+                <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center rounded-top bg-purple fw-bold">
+                    <asp:Label runat="server" Text="Seguros Dotales"></asp:Label>
                 </div>
-                <div class="p-3 grid align-items-center d-flex justify-content-center" style="height: auto; background-color: rgba(56, 191, 236, 0.2); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px">
+                <div class="p-3 grid align-items-center d-flex justify-content-center rounded-bottom">
+                    <asp:Label runat="server" Text="Seguro Dotal">
                     Es un seguro que garantiza la entrega de una cantidad de dinero acordada previamente al beneficio al terminar el periodo acordado y que no se condiciona al deceso del contratante. En esté existe el pago de cuotas periódicas, según lo que se haya establecido.
                 <br />
                     Ventajas:
@@ -164,6 +167,7 @@
                     3. Generalmente el valor de la suma asegurada va en aumneto anualmente.
                 <br />
                     4. Este tipo de seguro es mas una inversión a futuro, en el cual se obtiene beneficios economicós. 
+                    </asp:Label>
                 </div>
             </div>
             <div class="col-1"></div>
@@ -172,10 +176,11 @@
         <div class="row">
             <div class="col-1"></div>
             <div class="col mt-4">
-                <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center" style="background-color: rgba(142, 169, 219, 1); border-top-left-radius: 12px; border-top-right-radius: 12px; height: auto;">
-                    <strong>Seguros Temporales</strong>
+                <div class="p-3 text-center grid text-black align-items-center d-flex justify-content-center rounded-top bg-purple fw-bold">
+                    <asp:Label runat="server" Text="Seguros Temporales"></asp:Label>
                 </div>
-                <div class="mb-5 p-3 grid align-items-center d-flex justify-content-center" style="height: auto; background-color: rgba(56, 191, 236, 0.2); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px">
+                <div class="mb-5 p-3 grid align-items-center d-flex justify-content-center rounded-bottom">
+                    <asp:Label runat="server" Text="Seguro Dotal">
                     Este tipo de seguro se contrata por un peiodo de tiempo predeterminado, por lo que general de un año a cinco , y cuando se cumple el plazo de contrato, este mismo se tiene que renovar, y no se otorga yba cantidad ak término del plazo. Todo deoenderá de las necesidades de quien lo contrata.
                 <br />
                     Caracteristícas
@@ -184,7 +189,8 @@
                 <br />
                     2. Si se termina el plazo del seguro aigue con vida, el importe que haya ido pagando el aegurado no puede recuperarse.
                 <br />
-                    3. Lo más recomendable es que sea bien especifico que esre seguro pueda ser renovable par no perder beneficios estipulados en el contrato.  
+                    3. Lo más recomendable es que sea bien especifico que esre seguro pueda ser renovable par no perder beneficios estipulados en el contrato.
+                    </asp:Label>
                 </div>
             </div>
             <div class="col-1"></div>
