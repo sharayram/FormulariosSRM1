@@ -22,7 +22,7 @@
         </div>
         <div class="row mt-3">
             <div class="mt-2 col-sm-12 col-lg-4">
-                <div class="text-center text-light bg-blue">Nombre de tus hij@s</div>
+                <div class="text-center text-light bg-blue mb-2">Nombre de tus hij@s</div>
                 <input class="form-control rounded-pill mt-2" placeholder="Mostrar nombre" />
             </div>
             <div class="mt-2 col-sm-12 col-lg-4">
@@ -30,7 +30,7 @@
                 <div class="mt-3">
                     <select class="form-select rounded-pill" aria-label="Default select example">
                         <option selected disabled>Seleccionar opción</option>
-                        <option value="1">sí</option>
+                        <option value="1">Sí</option>
                         <option value="2">No</option>
                     </select>
                 </div>
@@ -67,7 +67,7 @@
                     </h5>
                 </div>
                 <div>
-                    <asp:Table ID="Table1" runat="server" CssClass="table">
+                    <asp:Table ID="TablaAñosDeAhorro" runat="server" CssClass="table">
                         <asp:TableRow>
                             <asp:TableCell>
                             Nombre
@@ -101,7 +101,7 @@
                     </h5>
                 </div>
                 <div>
-                    <asp:Table ID="Table2" runat="server" CssClass="table">
+                    <asp:Table ID="TablaHijos" runat="server" CssClass="table">
                         <asp:TableRow>
                             <asp:TableCell>
                             Nombre

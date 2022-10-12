@@ -15,6 +15,24 @@ namespace FormulariosSRM1.Ejemplo
     {
 
         /// <summary>
+        /// Control txtValorEconomico.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtValorEconomico;
+
+        /// <summary>
+        /// Control txtIngresoMensual.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtIngresoMensual;
+
+        /// <summary>
         /// Control Label1.
         /// </summary>
         /// <remarks>
@@ -31,5 +49,32 @@ namespace FormulariosSRM1.Ejemplo
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
+        /// Control lblTextoEstiloDeVida.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTextoEstiloDeVida;
+
+        /// <summary>
+        /// Control lblTextoTipoDeSeguro.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTextoTipoDeSeguro;
+
+        /// <summary>
+        /// Control btnAgendarCitaEV .
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAgendarCitaEV;
     }
 }

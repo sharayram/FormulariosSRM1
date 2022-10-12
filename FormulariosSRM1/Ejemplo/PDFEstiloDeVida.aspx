@@ -16,6 +16,10 @@
     </header>
 
     <div class="container mt-5">
+         <header style="background-color: rgba(56, 191, 236, 1);">
+        <img src="../Imagenes/Lgo%20ASFIES.png" alt="" width="42" height="34" />
+        <label class="text-light">Asesor Financiero Es+</label>
+    </header>
         <div class="row">
             <div class="col-3 position-relative">
                 <img class="position-absolute top-50 start-50 translate-middle" src="../Imagenes/imagenBD.png" />
