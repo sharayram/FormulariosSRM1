@@ -24,6 +24,15 @@ namespace FormulariosSRM1.Ejemplo
         protected global::System.Web.UI.WebControls.TextBox txtValorEconomico;
 
         /// <summary>
+        /// Control lblAlertaCorreo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAlertaCorreo;
+
+        /// <summary>
         /// Control txtIngresoMensual.
         /// </summary>
         /// <remarks>
@@ -69,7 +78,7 @@ namespace FormulariosSRM1.Ejemplo
         protected global::System.Web.UI.WebControls.Label lblTextoTipoDeSeguro;
 
         /// <summary>
-        /// Control btnAgendarCitaEV .
+        /// Control btnAgendarCitaEV.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.

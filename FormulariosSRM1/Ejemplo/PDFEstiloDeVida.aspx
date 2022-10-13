@@ -29,17 +29,17 @@
                 <h3>Análisis Financiero para:</h3>
 
                 <div class="input-group mb-3">
-                    <asp:Label class="form-control mt-3" ID="txtNombrePDFEstiloDeVida" runat="server" Text="Mostrar nombre"></asp:Label>
+                    <asp:Label class="form-control mt-3 text-muted" ID="txtNombrePDFEstiloDeVida" runat="server" Text="Mostrar nombre"></asp:Label>
                 </div>
 
                 <div class="input-group mb-3">
                     <span class="input-group-text bg-purple mt-3">Tu prioridad es:</span>
-                    <asp:Label class="form-control mt-3" ID="txtPrioridadPDFEstiloDeVida" runat="server" Text="Mostrar prioridad"></asp:Label>
+                    <asp:Label class="form-control mt-3 text-muted" ID="txtPrioridadPDFEstiloDeVida" runat="server" Text="Mostrar prioridad"></asp:Label>
                 </div>
 
                 <div class="input-group mb-3">
                     <span class="input-group-text bg-purple mt-3">La próxima cita es:</span>
-                    <asp:Label class="form-control mt-3" ID="txtFechaCitaPDFEstiloDeVida" runat="server" Text="Mostrar Fecha"></asp:Label>
+                    <asp:Label class="form-control mt-3 text-muted" ID="txtFechaCitaPDFEstiloDeVida" runat="server" Text="Mostrar Fecha"></asp:Label>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
             </div>
         </div>
         
-        <div class="mt-4 p-2" style="background-color: rgba(0, 32, 96, 1);">
+        <div class="mt-4 p-2 bg-blue">
             <h5 class="m-auto text-light">Fecha de realización</h5>
         </div>
 
@@ -59,15 +59,15 @@
                     <tbody>
                         <tr>
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Valor económico en tu vida</th>
-                            <td class="text-center"><asp:Label ID="lblPDFEDVValorEconomico" runat="server" Text="Se muestra valor"></asp:Label></td>
+                            <td class="text-center text-muted"><asp:Label ID="lblPDFEDVValorEconomico" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                         <tr>
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Años de salario de protección</th>
-                            <td class="text-center"><asp:Label ID="lblPDFEDVSalariodeProteccion" runat="server" Text="Se muestra valor"></asp:Label></td>
+                            <td class="text-center text-muted"><asp:Label ID="lblPDFEDVSalariodeProteccion" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                         <tr>
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Suma asegurada en pesos</th>
-                            <td class="text-center"><asp:Label ID="lblPDFEDVSumaEnPesos" runat="server" Text="Se muestra valor"></asp:Label></td>
+                            <td class="text-center text-muted"><asp:Label ID="lblPDFEDVSumaEnPesos" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                     </tbody>
                 </table>
@@ -95,7 +95,7 @@
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Suma Asegurada en UDIS:</th>
                         </tr>
                         <tr>
-                            <td class="text-center"><asp:Label ID="lblPDFEDVValorEc" runat="server" Text="Se muestra valor"></asp:Label></td>
+                            <td class="text-center text-muted"><asp:Label ID="lblPDFEDVValorEc" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                     </tbody>
                 </table>
@@ -106,7 +106,7 @@
                             <th class="text-center text-light" scope="row" style="background-color: rgba(0, 150, 198, 1);">Tipo de Seguro Elegido:</th>
                         </tr>
                         <tr>
-                            <td class="text-center"><asp:Label ID="lblPDFEDV" runat="server" Text="Se muestra valor"></asp:Label></td>
+                            <td class="text-center text-muted"><asp:Label ID="lblPDFEDV" runat="server" Text="Se muestra valor"></asp:Label></td>
                         </tr>
                     </tbody>
                 </table>

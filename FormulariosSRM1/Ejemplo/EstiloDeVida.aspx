@@ -25,8 +25,8 @@
                     <div class="input-group mb-3">
                         <span class="input-group-text bg-purple mt-3">Valor económico de la vida: </span>
                         <asp:TextBox class="form-control mt-3" placeholder="Valor económico" aria-describedby="basic-addon1" ID="txtValorEconomico" runat="server"></asp:TextBox>
-
                     </div>
+                    <asp:Label ID="lblAlertaCorreo" runat="server" Text=" "></asp:Label>
                 </div>
                 <div class="col">
                     <div class="input-group mb-3">
@@ -106,7 +106,7 @@
             </div>
 
             <div class="mb-5 mt-5 d-grid gap-2 d-md-flex justify-content-sm-end">
-                <asp:Button ID="btnAgendarCitaEV" runat="server" Text="Agendar Cita" class="btn btn-info" />
+                <asp:Button ID="btnAgendarCitaEV" runat="server" Text="Agendar Cita" class="btn btn-info" OnClick="btnAgendarCitaEV_Click" />
             </div>
         </div>
         </form>

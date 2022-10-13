@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Text.RegularExpressions;
+using System.Drawing;
 
 namespace FormulariosSRM1.Ejemplo
 {
@@ -14,24 +16,27 @@ namespace FormulariosSRM1.Ejemplo
            
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnAgendarCitaEV_Click(object sender, EventArgs e)
         {
-
+            Regexp(@"^([\w]+)@([\w]+)\.([\w]+)$", txtValorEconomico, lblAlertaCorreo, "Correo");
         }
 
-        protected void Button1_Click1(object sender, EventArgs e)
+        public void Regexp(string re, TextBox tb, Label lbl, string s)
         {
+            Regex regex = new Regex(re);
+            if (regex.IsMatch(tb.Text)) 
+            {
+                
+                lbl.ForeColor = Color.BlueViolet;
+                lbl.Text = s + " valido";
 
-        }
+            }
+            else
+            {
 
-        protected void Button1_Click2(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button1_Click3(object sender, EventArgs e)
-        {
-            
+                lbl.ForeColor = Color.Red;
+                lbl.Text = s + " invalido";
+            }
         }
     }
 }
