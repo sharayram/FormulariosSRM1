@@ -18,7 +18,8 @@ namespace FormulariosSRM1.Ejemplo
 
         protected void btnAgendarCitaEV_Click(object sender, EventArgs e)
         {
-            Regexp(@"^([\w]+)@([\w]+)\.([\w]+)$", txtValorEconomico, lblAlertaCorreo, "Correo");
+            Regexp(@"^([\w]+)@([\w]+)\.([\w]+)$", txtValorEconomico, lblAlertaCorreo, "Correo ");
+            Regexp(@"^([0-9]{2})\/([0-9]{2})\/([0-9]{4})$", txtIngresoMensual, lblAlertaFecha, "Fecha ingresada ");
         }
 
         public void Regexp(string re, TextBox tb, Label lbl, string s)
@@ -28,14 +29,14 @@ namespace FormulariosSRM1.Ejemplo
             {
                 
                 lbl.ForeColor = Color.BlueViolet;
-                lbl.Text = s + " valido";
+                lbl.Text =  s + "valido";
 
             }
             else
             {
 
                 lbl.ForeColor = Color.Red;
-                lbl.Text = s + " invalido";
+                lbl.Text = s + "invalido";
             }
         }
     }

@@ -42,6 +42,15 @@ namespace FormulariosSRM1.Ejemplo
         protected global::System.Web.UI.WebControls.TextBox txtIngresoMensual;
 
         /// <summary>
+        /// Control lblAlertaFecha.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAlertaFecha;
+
+        /// <summary>
         /// Control Label1.
         /// </summary>
         /// <remarks>

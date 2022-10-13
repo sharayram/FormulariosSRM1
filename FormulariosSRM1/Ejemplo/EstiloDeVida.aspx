@@ -33,6 +33,7 @@
                         <span class="input-group-text bg-purple mt-3">Ingreso mensual: </span>
                         <asp:TextBox class="form-control mt-3" placeholder="Ingreso Mensual" aria-describedby="basic-addon1" ID="txtIngresoMensual" runat="server"></asp:TextBox>
                     </div>
+                    <asp:Label ID="lblAlertaFecha" runat="server" Text=" "></asp:Label>
                 </div>
             </div>
             <div class="row">
